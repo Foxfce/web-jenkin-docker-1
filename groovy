@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/your-username/web-simple.git'
+                git 'https://github.com/Foxfce/web-jenkin-docker-1.git'
             }
         }
         stage('Build Docker Image') {
